@@ -21,20 +21,20 @@ const CardHome = [
     content: "",
   },
   {
-    title: "Tony Hawk’s Pro Skater 3 + 4: THPS Fest at El Rey Theatre",
-    date: "May 09, 2025",
+    title: "#TeamRICOCHET Season 03 Recap for Black Ops 6 and Warzone",
+    date: "May 07, 2025",
     image: "/public/HeroPageImage/COD-BO6-RICOCHET-S03R-TOUT-A.webp",
     content: "",
   },
   {
-    title: "Tony Hawk’s Pro Skater 3 + 4: THPS Fest at El Rey Theatre",
-    date: "May 09, 2025",
+    title: "C.O.D.E. celebrates Military Appreciation Month with USAA",
+    date: "May 01, 2025",
     image: "/public/HeroPageImage/CODE-MAM-2025-IMAGE-TOUT.webp",
     content: "",
   },
   {
-    title: "Tony Hawk’s Pro Skater 3 + 4: THPS Fest at El Rey Theatre",
-    date: "May 09, 2025",
+    title: "Black Ops 6 Season 03 Reloaded: All the Details",
+    date: "APR 29, 2025",
     image: "/public/HeroPageImage/BO6-S03R-ANNOUNCEMENT-TOUT.webp",
     content: "",
   },
@@ -44,7 +44,7 @@ export default function HomeCards() {
   return (
     <>
       <div
-        className="bg-gray-900 flex flex-col justify-center items-center gap-4"
+        className="bg-[#110f0f] flex flex-col justify-center items-center gap-4"
         style={{ paddingTop: "20px" }}
       >
         <h2 className="text-white text-3xl font-bold mb-8 text-center">
@@ -52,7 +52,8 @@ export default function HomeCards() {
         </h2>
         <div className="border-1 w-[80%] border-amber-50"></div>
         <div className="flex flex-row  flex-wrap justify-center items-center gap-10">
-          <h3 className=" text-amber-50 text-2xl">ALL NEWS</h3>
+          <h3 className=" text-amber-50 text-2xl ">ALL NEWS</h3>
+
           <img
             src="/HeroPageImage/activision-logo-small.svg"
             className="w-30"
@@ -67,11 +68,11 @@ export default function HomeCards() {
         <div className="border-1 w-[80%] border-amber-50"></div>
       </div>
       <div
-        className="flex flex-wrap gap-5 justify-around bg-gray-900 "
+        className="flex flex-wrap gap-5 justify-around bg-[#0f0f11] "
         style={{ paddingTop: "20px", paddingBottom: "20px" }}
       >
         {CardHome.map((item) => (
-          <div className="bg-gray-800 rounded-3xl shadow-md w-90 ">
+          <div className="bg-[#151515] rounded-3xl shadow-md w-90 ">
             <img
               src={item.image}
               alt={item.title}
@@ -97,7 +98,7 @@ export default function HomeCards() {
         ))}
       </div>
       <div
-        className="bg-gray-900 flex justify-around items-center"
+        className="bg-[#110f0f] flex justify-around items-center"
         style={{ paddingTop: "10px", paddingBottom: "10px" }}
       >
         <button className="text-white border-1 border-amber-50 rounded-2xl w-50 h-10 hover:bg-amber-50/10">
