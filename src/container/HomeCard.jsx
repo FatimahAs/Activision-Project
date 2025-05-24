@@ -4,38 +4,38 @@ const CardHome = [
   {
     title: "Stitch Returns in Season 04",
     date: "May 20, 2025",
-    image: "/public/HeroPageImage/BO6-SEASON-04-NARRATIVE-TOUT (1).jpg",
+    image: "/HeroPageImage/BO6-SEASON-04-NARRATIVE-TOUT (1).jpg",
     content: "",
   },
   {
     title: "Support C.O.D.E. Military Appreciation Month",
     date: "May 15, 2025",
-    image: "/public/HeroPageImage/CODE-MAM-GY6-TOUT.jpg",
+    image: "/HeroPageImage/CODE-MAM-GY6-TOUT.jpg",
     content:
       "The Call of Duty Endowment Military Appreciation Month 2025 presented by USAA honors veterans with the C.O.D.E. United Force: Tracer Pack and more.",
   },
   {
     title: "Tony Hawk’s Pro Skater 3 + 4: THPS Fest at El Rey Theatre",
     date: "May 09, 2025",
-    image: "/public/HeroPageImage/THPS-ELREY-IMAGE-TOUT.jpg",
+    image: "/HeroPageImage/THPS-ELREY-IMAGE-TOUT.jpg",
     content: "",
   },
   {
     title: "#TeamRICOCHET Season 03 Recap for Black Ops 6 and Warzone",
     date: "May 07, 2025",
-    image: "/public/HeroPageImage/COD-BO6-RICOCHET-S03R-TOUT-A.webp",
+    image: "/HeroPageImage/COD-BO6-RICOCHET-S03R-TOUT-A.webp",
     content: "",
   },
   {
     title: "C.O.D.E. celebrates Military Appreciation Month with USAA",
     date: "May 01, 2025",
-    image: "/public/HeroPageImage/CODE-MAM-2025-IMAGE-TOUT.webp",
+    image: "/HeroPageImage/CODE-MAM-2025-IMAGE-TOUT.webp",
     content: "",
   },
   {
     title: "Black Ops 6 Season 03 Reloaded: All the Details",
     date: "APR 29, 2025",
-    image: "/public/HeroPageImage/BO6-S03R-ANNOUNCEMENT-TOUT.webp",
+    image: "/HeroPageImage/BO6-S03R-ANNOUNCEMENT-TOUT.webp",
     content: "",
   },
 ];

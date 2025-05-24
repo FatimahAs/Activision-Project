@@ -8,40 +8,40 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 const videoSlides = [
   {
     video: "/videos/bo6-gameplay-reveal-trailer-atvi.mp4",
-    title: "/public/HeroPageImage/black-ops-6-full-logo.png",
+    title: "/HeroPageImage/black-ops-6-full-logo.png",
     subtitle: "Forced to go rogue. Hunted from Within. This is Black Ops 6.",
     buttontext: "PLAY WITH GAME PASS",
-    smallimage: "/public/HeroPageImage/cod-hub-esrb-en.png",
+    smallimage: "/HeroPageImage/cod-hub-esrb-en.png",
   },
   {
     video: "/videos/call-of-duty-mobile.mp4",
-    title: "/public/HeroPageImage/PC_LOGO_PRIMARY_NEG_241121.svg",
+    title: "/HeroPageImage/PC_LOGO_PRIMARY_NEG_241121.svg",
     subtitle:
       "Available for Xbox Series X|S, Xbox One, PlayStation 4 and 5, Steam, Battle.net, Microsoft PC Store, and Nintendo Switch. ",
     buttontext: "PRE-ORDER NOW",
-    smallimage: "/public/HeroPageImage/esrb-rating-en.svg",
+    smallimage: "/HeroPageImage/esrb-rating-en.svg",
   },
   {
     video: "/videos/crash_team_rumble.mp4",
-    title: "/public/HeroPageImage/crash-team-rumble-logo.png",
+    title: "/HeroPageImage/crash-team-rumble-logo.png",
     subtitle:
       "Get ready to dash, jump, slide, and bounce  into an all-new way to Crash",
     buttontext: "GET NOW",
-    smallimage: "/public/HeroPageImage/Ratingsymbol_e10.png",
+    smallimage: "/HeroPageImage/Ratingsymbol_e10.png",
   },
   {
     video: "/videos/THPS3+4_Reveal_15_Channel_ESRB_16x9_ATVI_Header.mp4",
-    title: "/public/HeroPageImage/cod-mobile-logo-v2.png",
+    title: "/HeroPageImage/cod-mobile-logo-v2.png",
     subtitle: "Available Now For iOS and Android!",
     buttontext: "DOWNLOAD NOW",
-    smallimage: "/public/HeroPageImage/cod-hub-esrb-en.png",
+    smallimage: "/HeroPageImage/cod-hub-esrb-en.png",
   },
   {
     video: "/videos/tony-hawk-pro-1-2.mp4",
-    title: "/public/HeroPageImage/Tony_Hawk-ProSkater1+2-logo.png",
+    title: "/HeroPageImage/Tony_Hawk-ProSkater1+2-logo.png",
     subtitle: "Available Now For PS4™, XBOX One® & PC!",
     buttontext: "GET NOW",
-    smallimage: "/public/HeroPageImage/footer-esrb-thps-en.png",
+    smallimage: "/HeroPageImage/footer-esrb-thps-en.png",
   },
 ];
 

@@ -49,13 +49,13 @@ function HomeBanner() {
   return (
     <div className="bg-black text-white">
       <Section
-        image="/public/HeroPageImage/support-banner-v3.jpg"
+        image="/HeroPageImage/support-banner-v3.jpg"
         title="WE'RE HERE TO HELP!"
         description="Get answers to frequently asked questions, check server status, and engage with a support expert"
         buttonText="VISIT SUPPORT"
       />
       <Section
-        image="/public/HeroPageImage/joinus-banner-img-spyro.png"
+        image="/HeroPageImage/joinus-banner-img-spyro.png"
         title="HAVE FUN"
         description="Learn More About Job Opportunities"
         buttonText="JOIN US"

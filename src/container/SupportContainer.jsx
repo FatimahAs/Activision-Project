@@ -9,32 +9,32 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const imageSlides = [
   {
-    image: "/public/supportImage/BO6_S3R_hero.jpg",
-    title: "/public/supportImage/BO6-S3R-logo-lockup.png",
+    image: "/supportImage/BO6_S3R_hero.jpg",
+    title: "/supportImage/BO6-S3R-logo-lockup.png",
     list1: " CHECK OUT WHAT'S NEW IN SEASON 03 RELOADED",
     list2: " Browse the support page",
   },
   {
-    image: "/public/supportImage/WZV-home-banner-v3.jpg",
-    title: "/public/supportImage/WZ-logo-wh.png",
+    image: "/supportImage/WZV-home-banner-v3.jpg",
+    title: "/supportImage/WZ-logo-wh.png",
     list1: " WARZONE INSTALLATION AND SETUP",
     list2: " Browse the support page",
   },
   {
-    image: "/public/supportImage/THPS34_home_01.jpg",
-    title: "/public/supportImage/THPS34_LOGO_NEG.png",
+    image: "/supportImage/THPS34_home_01.jpg",
+    title: "/supportImage/THPS34_LOGO_NEG.png",
     list1: " Tony Hawk’s Pro Skater 3 + 4 FAQ",
     list2: " Tony Hawk’s Pro Skater 3 + 4 Code Support",
   },
   {
-    image: "/public/supportImage/MWIII-Hero-ban-beta.png",
-    title: "/public/supportImage/MWIII-logo-1a.png",
+    image: "/supportImage/MWIII-Hero-ban-beta.png",
+    title: "/supportImage/MWIII-logo-1a.png",
     list1: "MODERN WARFARE III INSTALLATION AND SETUP",
     list2: " Browse the support page",
   },
   {
-    image: "/public/supportImage/MWII-PS-HERO.jpg",
-    title: "/public/supportImage/MWII-logo-2023.png",
+    image: "/supportImage/MWII-PS-HERO.jpg",
+    title: "/supportImage/MWII-logo-2023.png",
     list1: " MODERN WARFARE II INSTALLATION AND SETUP",
     list2: " Browse the support page",
   },
@@ -70,11 +70,11 @@ function SupportContainer() {
                   style={{ marginTop: "20px" }}
                 >
                   <div className="inline-flex gap-4   items-center">
-                    <img src="/public/supportImage/icon_game.png" />
+                    <img src="/supportImage/icon_game.png" />
                     <p>{item.list1}</p>
                   </div>
                   <div className="inline-flex gap-4  items-center">
-                    <img src="/public/supportImage/icon_support.png" />
+                    <img src="/supportImage/icon_support.png" />
                     <p>{item.list2}</p>
                   </div>
                 </div>

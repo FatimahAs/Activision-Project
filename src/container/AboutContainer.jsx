@@ -80,28 +80,27 @@ const games = [
   {
     gameName: "Call of Duty Black Ops 6",
     role: "Mature 17+",
-    image: "/public/aboutimage/BO6-FOB.jpg",
+    image: "/aboutimage/BO6-FOB.jpg",
   },
   {
     gameName: "Call of Duty®: Warzone",
     role: "Mature 17+",
-    image: "/public/aboutimage/wz-boxart.jpg",
+    image: "/aboutimage/wz-boxart.jpg",
   },
   {
     gameName: "Call of Duty Modern Warfare III",
     role: "Mature 17+",
-    image: "/public/aboutimage/mwiii-boxart.jpg",
+    image: "/aboutimage/mwiii-boxart.jpg",
   },
   {
     gameName: "Crash Team Rumble",
     role: "Mature 10+",
-    image:
-      "/public/aboutimage/CTRumble_KEYART_SEASON2_1080X1350_AVAILABLE_NOW.jpg",
+    image: "/aboutimage/CTRumble_KEYART_SEASON2_1080X1350_AVAILABLE_NOW.jpg",
   },
   {
     gameName: "Tony Hawk's™ Pro Skater™ 1 + 2",
     role: "TEEN",
-    image: "/public/aboutimage/thps-1-2-boxart.png",
+    image: "/aboutimage/thps-1-2-boxart.png",
   },
   {
     gameName: "Call of Duty®: Mobile",
@@ -111,12 +110,12 @@ const games = [
   {
     gameName: "Sekiro®: Shadows Die Twice",
     role: "Mature 17+",
-    image: "/public/aboutimage/sekiro-boxart.jpg",
+    image: "/aboutimage/sekiro-boxart.jpg",
   },
   {
     gameName: "SPYRO® Reignited Trilogy",
     role: "Mature 10+",
-    image: "/public/aboutimage/spyro-boxart.png",
+    image: "/aboutimage/spyro-boxart.png",
   },
 ];
 
@@ -125,7 +124,7 @@ function AboutContainer() {
     <>
       <div className="">
         <img
-          src="/public/aboutimage/atvi-about-hero.jpg"
+          src="/aboutimage/atvi-about-hero.jpg"
           className=" w-full bg-cover  bg-no-repeat"
         />
 
@@ -189,10 +188,7 @@ function AboutContainer() {
               OUR VALUES
             </h1>
             <hr className="text-white w-full" style={{ padding: "10px" }} />
-            <img
-              className=" w-[60%]"
-              src="/public/aboutimage/atvi-values.png"
-            />
+            <img className=" w-[60%]" src="/aboutimage/atvi-values.png" />
             <div style={{ padding: "10px" }}>
               <button className=" text-white bg-blue-500/30 text-sm border-3 border-blue-500 rounded-full w-40 h-11 hover:border-blue-400 ">
                 LEARN MORE
@@ -286,7 +282,7 @@ function AboutContainer() {
             style={{ borderTop: "1px solid #333", padding: "20px" }}
           >
             <img
-              src="/public/HeroPageImage/joinus-banner-img-spyro.png"
+              src="/HeroPageImage/joinus-banner-img-spyro.png"
               className=" object-cover  opacity-55 bg-no-repeat"
             />
 
