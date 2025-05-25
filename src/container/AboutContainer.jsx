@@ -135,7 +135,7 @@ const Section = ({
       } items-center justify-between bg-black text-white`}
     >
       <div className="md:w-1/2 w-full h-64 md:h-96">
-        <img src={image} alt={title} className="w-full h-80 object-cover" />
+        <img src={image} alt={title} className="w-full h-full object-cover" />
       </div>
       <div className="md:w-1/2 w-full p-6 md:p-12 space-y-4">
         <h2 className="text-xl font-bold uppercase">{title}</h2>
