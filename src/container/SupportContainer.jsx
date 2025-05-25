@@ -44,7 +44,7 @@ function SupportContainer() {
   const swiperRef = useRef(null);
   return (
     <>
-      <div className="relative w-full h-[50vh] overflow-hidden">
+      <div className="relative w-full h-full overflow-hidden">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           ref={swiperRef}
